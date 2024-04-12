@@ -28,14 +28,10 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-.logo {
-    max-height: 50px;
-}
 .container {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row; /* Alteração aqui */
     flex-wrap: wrap; /* Adição aqui */
@@ -46,10 +42,13 @@ nav ul li a {
     padding: 20px;
 }
 .library-info h2 {
-    margin-top: 200px;
-    margin-left: 250px;
+
+    margin-top: 15%;
+    margin-left: 15%;
 }
 .book {
+    width: 30%;
+    margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
     flex-direction: row;
@@ -61,4 +60,25 @@ nav ul li a {
 }
 .book h2 {
     margin-top: 0;
+}
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .book {
+        width: 100%;
+    }   
+    /* Ocultar a imagem em telas menores */
+    .library-info img {
+        display: none;
+    }
+    /* Ajustar o título para telas menores */
+    .library-info h2 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
 }
