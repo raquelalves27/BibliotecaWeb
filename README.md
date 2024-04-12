@@ -1,2 +1,2 @@
-# SiteFortalezaEC
-Protópipo de site do time Fortaleza para entrega de atividade de Desenvolvimento WEB
+# SiteBibliotecaWeb
+Protópipo de uma biblioteca para entrega de atividade de Desenvolvimento WEB
