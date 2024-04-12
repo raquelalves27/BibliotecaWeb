@@ -1,0 +1,64 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li:first-child { 
+    margin-left: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    max-height: 50px;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Alteração aqui */
+    flex-wrap: wrap; /* Adição aqui */
+}
+.library-info {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+.library-info h2 {
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-right: 20px; /* Adição aqui */
+}
+.book h2 {
+    margin-top: 0;
+}
