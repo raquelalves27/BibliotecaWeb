@@ -1,0 +1,106 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li:first-child { 
+    margin-left: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    width: 90%;
+}
+
+.profile-picture {
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    height: 150px; /* Definindo uma altura fixa para a imagem */
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px; /* Mantendo a mesma altura da imagem */
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info h1 span {
+    color:  #333;
+}
+
+.profile-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .profile-card {
+        width: 100%;
+        max-width: none;
+    }
+
+    .profile-picture {
+        text-align: center;
+        max-width: 450px;
+        width: 90%;
+        height: auto; /* Removendo a altura fixa */
+    }
+    
+    .profile-picture img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        margin-top: 2%; /* Ajustando a margem superior */
+    }
+}
