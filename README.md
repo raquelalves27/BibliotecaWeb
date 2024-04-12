@@ -16,4 +16,6 @@ Organizei o projeto em 3 importantes pastas:
    *******
    ## Estrutura GIT
    *Usei os principios do Git-FLow, criando uma branch developer e padronizando os commits com "add:", "fix:", "delete:", antes de cada commit*  
+   ## Projeto publicado no GitHub Pages
+   https://raquelalves27.github.io/BibliotecaWeb/
 
