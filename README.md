@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# SiteBibliotecaWeb
-Protópipo de uma biblioteca para entrega de atividade de Desenvolvimento WEB
-=======
+
 # BibliotecaWeb
 Protópipo de site de uma biblioteca para entrega de atividade de Desenvolvimento WEB. 
 Após uma pequena mudança de ideia, pois antes era um site do Fortaleza haha.
@@ -15,4 +12,4 @@ Organizei o projeto em 3 importantes pastas:
    *******
    ## Estrutura GIT
    *Usei os principios do Git-FLow, criando uma branch developer e padronizando os commits com "add:", "fix:", "delete:", antes de cada commit*  
->>>>>>> developer
+
